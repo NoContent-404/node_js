@@ -4,11 +4,9 @@ cc.Class({
     properties: {
 
     },
+    onLoad : function(){
+        let socket = io('http://localhost:3000');
 
-
-    start () {
-
-    },
-
+    }
 
 });
