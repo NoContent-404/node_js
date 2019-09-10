@@ -1,7 +1,7 @@
 {
   "name": "node_js_server",
   "version": "1.0.0",
-  "description": "myserver",
+  "description": "server",
   "main": "app.js",
   "scripts": {
     "test": "node app.js"
