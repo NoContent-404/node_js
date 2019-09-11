@@ -8,5 +8,11 @@ app.on('connection',function (socket) {
     //  给客户端发送消息
     socket.emit('welcome','hello world!');
 
+
+    //  服务器接收
+    socket.on('login',function (data) {
+        console.log('a user login = ' + JSON.stringify(data));
+
+    })
 });
 console.log('监听这个端口：3000');
